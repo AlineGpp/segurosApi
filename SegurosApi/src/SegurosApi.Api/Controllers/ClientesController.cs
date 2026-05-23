@@ -1,25 +1,22 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SegurosApi.Domain.Interfaces;
+using SegurosApi.Application;
+
 
 namespace SegurosApi.Api.Controllers;
 
 [ApiController]
+[Authorize()]
 [Route("api/clientes")]
-public class ClientesController : ControllerBase
+public class ClientesController(IClienteService clienteService) : ControllerBase
 {
-    private readonly IClienteRepository _repository;
-
-    public ClientesController(
-        IClienteRepository repository)
-    {
-        _repository = repository;
-    }
+    private readonly IClienteService _clienteService = clienteService;
 
     [HttpGet]
     public async Task<IActionResult> Get()
     {
         var clientes =
-            await _repository.GetAll();
+            await _clienteService.GetAllClientesAsync();
 
         return Ok(clientes);
     }

@@ -4,7 +4,9 @@ using Microsoft.Extensions.DependencyInjection;
 using SegurosApi.Domain.Interfaces;
 using SegurosApi.Infrastructure.Context;
 using SegurosApi.Infrastructure.Repositories;
-
+using SegurosApi.Application;
+using SegurosApi.Application.Services;
+using SegurosApi.Application.Interfaces;
 
 namespace SegurosApi.Infrastructure.DependencyInjection;
 
@@ -20,6 +22,16 @@ public static class DependencyInjection
             ));
 
         services.AddScoped<IClienteRepository, ClienteRepository>();
+
+        services.AddScoped<IApoliceRepository, ApoliceRepository>();
+
+        services.AddScoped<ISeguroRepository, SeguroRepository>();
+
+        services.AddScoped<IClienteService, ClienteService>();
+
+        services.AddScoped<IApoliceService, ApoliceService>();
+        
+        services.AddScoped<ISeguroService, SeguroService>();
 
         return services;
     }

@@ -33,6 +33,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SegurosApi.Domain\SegurosApi.Domain.csproj" />
+    <ProjectReference Include="..\SegurosApi.Application\SegurosApi.Application.csproj" />
   </ItemGroup>
 
 </Project>
