@@ -133,3 +133,5 @@ $RECYCLE.BIN/
 _NCrunch*
 
 **/obj/Debug/
+**/bin/Debug/
+
