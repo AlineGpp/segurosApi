@@ -1,5 +1,0 @@
-C:\Users\Aline GPP\Documents\C#\api-seguros\SegurosApi\obj\Debug\net8.0\SegurosApi.csproj.AssemblyReference.cache
-C:\Users\Aline GPP\Documents\C#\api-seguros\SegurosApi\obj\Debug\net8.0\SegurosApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Aline GPP\Documents\C#\api-seguros\SegurosApi\obj\Debug\net8.0\SegurosApi.AssemblyInfoInputs.cache
-C:\Users\Aline GPP\Documents\C#\api-seguros\SegurosApi\obj\Debug\net8.0\SegurosApi.AssemblyInfo.cs
-C:\Users\Aline GPP\Documents\C#\api-seguros\SegurosApi\obj\Debug\net8.0\SegurosApi.csproj.CoreCompileInputs.cache
