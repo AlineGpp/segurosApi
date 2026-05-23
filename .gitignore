@@ -135,3 +135,21 @@ _NCrunch*
 **/obj/Debug/
 **/bin/Debug/
 
+# .NET / NuGet
+**/obj/
+**/bin/
+
+# NuGet cache
+*.nuget.cache
+*.nuget.dgspec.json
+project.assets.json
+
+# VSCode
+.vscode/
+
+# Rider
+.idea/
+
+# Visual Studio
+.vs/
+
