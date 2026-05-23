@@ -1,0 +1,11 @@
+C:\Users\Aline GPP\Documents\C#\api-seguros\SegurosApi\src\SegurosApi.Domain\bin\Debug\net8.0\SegurosApi.Domain.deps.json
+C:\Users\Aline GPP\Documents\C#\api-seguros\SegurosApi\src\SegurosApi.Domain\bin\Debug\net8.0\SegurosApi.Domain.dll
+C:\Users\Aline GPP\Documents\C#\api-seguros\SegurosApi\src\SegurosApi.Domain\bin\Debug\net8.0\SegurosApi.Domain.pdb
+C:\Users\Aline GPP\Documents\C#\api-seguros\SegurosApi\src\SegurosApi.Domain\obj\Debug\net8.0\SegurosApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aline GPP\Documents\C#\api-seguros\SegurosApi\src\SegurosApi.Domain\obj\Debug\net8.0\SegurosApi.Domain.AssemblyInfoInputs.cache
+C:\Users\Aline GPP\Documents\C#\api-seguros\SegurosApi\src\SegurosApi.Domain\obj\Debug\net8.0\SegurosApi.Domain.AssemblyInfo.cs
+C:\Users\Aline GPP\Documents\C#\api-seguros\SegurosApi\src\SegurosApi.Domain\obj\Debug\net8.0\SegurosApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Aline GPP\Documents\C#\api-seguros\SegurosApi\src\SegurosApi.Domain\obj\Debug\net8.0\SegurosApi.Domain.dll
+C:\Users\Aline GPP\Documents\C#\api-seguros\SegurosApi\src\SegurosApi.Domain\obj\Debug\net8.0\refint\SegurosApi.Domain.dll
+C:\Users\Aline GPP\Documents\C#\api-seguros\SegurosApi\src\SegurosApi.Domain\obj\Debug\net8.0\SegurosApi.Domain.pdb
+C:\Users\Aline GPP\Documents\C#\api-seguros\SegurosApi\src\SegurosApi.Domain\obj\Debug\net8.0\ref\SegurosApi.Domain.dll
