@@ -15,7 +15,7 @@ namespace SegurosApi.Application.Services
 
         public async Task<Cliente> GetClienteByIdAsync(Guid id)
         {
-            return await _clienteRepository.GetById(id);
+            return await _clienteRepository.GetById(id) ?? throw new Exception("Cliente não encontrado");
         }
 
         public async Task<IEnumerable<Cliente>> GetAllClientesAsync()
@@ -23,19 +23,21 @@ namespace SegurosApi.Application.Services
             return await _clienteRepository.GetAll();
         }
 
-        public Task<Cliente> CreateClienteAsync(Cliente cliente)
+        public async  Task<Cliente> CreateClienteAsync(Cliente cliente)
         {
-            throw new NotImplementedException();
+             await  _clienteRepository.Add(cliente);
+            return cliente;
         }
 
-        public Task<Cliente> UpdateClienteAsync(Cliente cliente)
+        public async Task<Cliente> UpdateClienteAsync(Cliente cliente)
         {
-            throw new NotImplementedException();
+            await _clienteRepository.Update(cliente);
+            return cliente;
         }
 
-        public Task DeleteClienteAsync(Guid id)
+        public async Task DeleteClienteAsync(Guid id)
         {
-            throw new NotImplementedException();
+            await _clienteRepository.Delete(id);
         }
     }
 }

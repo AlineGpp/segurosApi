@@ -1,13 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SegurosApi.Application.Interfaces;
-using SegurosApi.Domain.Interfaces;
 
-namespace SegurosApi.Api.Controllers
-{
+namespace SegurosApi.Api.Controllers;
+
+[ApiController]
+[Authorize()]
+[Route("api/apolices")]
+
     public class ApoliceController(IApoliceService apoliceService) : ControllerBase
     {
         private readonly IApoliceService _apoliceService = apoliceService;
@@ -21,4 +21,3 @@ namespace SegurosApi.Api.Controllers
             return Ok(apolices);
         }
     }
-}
